@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- /storage/emulated/0/Download/${applicationId}/.beta/apk-->
+    <external-path
+        name="beta_external_path"
+        path="Download/" />
+    <external-path
+        name="apk_download"
+        path="XingyuDownloads/" />
+
+    <!--/storage/emulated/0/Android/data/${applicationId}/files/apk/-->
+    <external-path
+        name="beta_external_files_path"
+        path="Android/data/" />
+
+    <external-path
+        name="files_root"
+        path="Android/data/cn.video.star/" />
+    <external-path
+        name="external_storage_root"
+        path="." />
+    <external-files-path
+        name="external_files_path"
+        path="Download" />
+
+    <external-path
+        name="gdt_sdk_download_path"
+        path="GDTDOWNLOAD" />
+
+    <external-path
+        name="external_files"
+        path="." />
+</paths>
