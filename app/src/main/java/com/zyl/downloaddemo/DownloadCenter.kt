@@ -27,15 +27,16 @@ class DownloadCenter {
             DownloadCenter()
         }
 
-        const val priorityM3U8 = 1//m3u8的优先级
-        const val priorityMP4 = 2//mp4的优先级
     }
 
 
+    /**
+     *
+     */
     inner class ComparePriority<T : Runnable> : Comparator<T> {
 
         override fun compare(lhs: T, rhs: T): Int {
-            return (rhs as SingleDownloadRunnable).priority - (lhs as SingleDownloadRunnable).priority
+            return (lhs as SingleDownloadRunnable).index - (rhs as SingleDownloadRunnable).index
         }
     }
 

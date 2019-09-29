@@ -42,7 +42,10 @@ class DownloadEntity {
     }
 
     //mp4专属属性
-    var fileSize: Int = 0//文件大小
+    var fileSize: Long = 0//文件大小
+    var tempName: String = ""//文件临时名称
+    var fileName: String = ""//文件名称
+    var loadedSize: Long = 0//已经下载大小
     var totalDuration: String = ""//整体时长
 
 }
